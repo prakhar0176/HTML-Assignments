@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(243,156,18);
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    height: 11vh;
+    width: 60%;
+    position: relative;
+    margin: 0 20%;
+}
+
+header .logo {
+    background-color: rgb(231,76,60);
+    display: inline-block;
+    height: 11vh;
+    width: 30%;
+    position: relative;
+}
+h1 {
+    font-size: 35px;
+    text-align: center;
+    font-family: sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+header nav {
+    background-color: rgb(155,89,182);
+    float: right;
+    height: 11vh;
+    width: 68%;
+    position: relative;
+}
+
+section {
+    height: 90vh;
+    width: 60%;
+    position: relative;
+    margin: 2vh 20%;
+}
+
+
+.banner {
+    background-color: rgb(52,152,219);
+    height: 32vh;
+    position: relative;
+}
+
+
+.main {
+    height: 47vh;
+    position: relative;
+    margin-top: 2vh;
+}
+
+.sidebar {
+    background-color:  rgb(26,188,156);
+    display: inline-block;
+    height: 47vh;
+    width: 30%;
+    position: relative;
+}
+
+.content {
+    background-color: rgb(46,204,113);
+    float: right;
+    height: 47vh;
+    width: 68%;
+    position: relative;
+}
+
+footer {
+    background-color: rgb(241,196,15);
+    height: 11vh;
+    margin-top: 2vh;
+    position: relative;
+    
+}

@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(74,82,95);
+}
+
+.main {
+    background-color: rgb(191,191,191);
+    margin: 5vh 30vh 0 30vh;
+    height: 20vh;
+    width: 70vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: rgb(60,60,60);
+    height: 10vh;
+    width: 65vw;
+    margin: 5%;
+    position: absolute;
+    
+}
+
+.wrapper h1 {
+    color: rgb(243,102,98);
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: normal;
+}
+
+.container {
+    height: 75vh;
+    width: 70vw;
+    margin: 2vh 30vh 5vh;
+}
+
+.banner1 {
+    height: 75vh;
+    width: 48.5%;
+    display: inline-block;
+}
+
+.banner2 {
+    height: 75vh;
+    width: 48.5%;
+    float: right;
+}
+
+.border {
+    background-color: rgb(42,121,128);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    background-color: rgb(241,89,40);
+    height: 33vh;
+    width: 90%;
+}
+
+img {
+    height: 140px;
+    width: 180px;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+}
+
+h2 {
+    color: rgb(243,242,242);
+    font-family: -webkit-pictograph;
+    text-align: center;
+    font-weight: normal;
+    line-height: 2;
+}
+
+p {
+    color: rgb(243,242,242);
+    margin-top: 2vh;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 2;
+}
